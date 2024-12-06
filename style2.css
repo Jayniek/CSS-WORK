@@ -1,0 +1,61 @@
+body{
+    background-color: antiquewhite;
+}
+#par1{
+    color: #f7e8e8;
+    font-size: 25px;
+    text-align: center;
+    background-color: chocolate;
+    padding: 30px;
+}
+#heading1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    color: blue;
+    text-transform: capitalize;
+}
+#heading2{
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(26, 224, 158);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#par2{
+    font-size: 25px;
+    text-align: center;
+    padding: 35px;
+    color: crimson;
+    background-color: rgb(194, 120, 24);
+    font-weight: 400;
+}
+.myprgs{
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: rgb(118, 212, 212);
+    margin: 50px;
+    padding: 20px;
+
+}
+.myprgs:hover{
+color: blueviolet;
+transform: scale(1.15);
+transition: 3s;
+}
+.myheadings{
+    text-align: center;
+    font-size: 30px;
+    color: indigo;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    background-color: chartreuse;
+}
+.myheadings:hover{
+    color: rgb(238, 225, 225);
+    transform: rotate(30deg);
+    transition: 5s;
+    
+}

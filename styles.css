@@ -1,0 +1,85 @@
+body{
+  margin: 0;  
+  background-color: antiquewhite;
+}
+p{
+    font-size: 30px;
+    color: rgb(80, 80, 231);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 10px 10px 5px crimson;
+    letter-spacing: 10px;
+    
+   
+}
+h1:hover{
+    color: blueviolet;
+     transform: rotate(-30deg);
+     transition: 5s;
+
+/* 
+tranform : skew(60deg);
+transform: scale(1.5);
+*/
+
+}
+div{
+    background-color: aqua;
+    /* border: solid 5px chocolate;
+    margin: 80px;
+    padding: 50px; */
+    border-top: solid 5px chocolate;
+    border-right: groove 7px cornflowerblue;
+    border-bottom: double 8px crimson;
+    border-left: dotted 8px pink;
+
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 40px;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 30px;
+    color: darksalmon;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+a:hover{
+color: crimson;
+background-color: blueviolet;
+}
+ol{
+    background-color: rgb(192, 158, 21);
+    padding: 50px;
+    list-style-type: disc;
+    margin-top: 50px;
+}
+li{
+    background-color: beige;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(17, 32, 1);
+}
+li:hover{
+    background-color: aquamarine;
+    color: crimson;
+}

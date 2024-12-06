@@ -1,0 +1,39 @@
+#blue{
+    background-color: blue;
+    height: 450px;
+}
+#white{
+    background-color: white;
+    height: 450px;
+}
+#red{
+    background-color: red;
+    height: 450px;
+}
+.whole{
+   display: flex;
+   flex-direction: row;
+   border: 5px solid white;
+}
+.whole > div{
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
